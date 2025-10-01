@@ -54,7 +54,7 @@ export default function SearchBar({ onSearch }) {
                 <span
                   className="cursor-pointer text-blue-600"
                   onClick={() =>{
-                    onSearch(item);
+                    setSearch(item);
                      onSearch(item);
                      setShowHistory(false);
                   }}
